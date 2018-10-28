@@ -1,0 +1,170 @@
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+* {  
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  display: block;
+}
+
+body {
+  margin: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+header, footer, aside{
+  background-color: lightgrey;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  background-color: #fff;
+  color: #444;
+  padding: 1em;
+}
+
+h1,form {
+  background-color: #000f6771;
+  color: #fff;
+  border-radius: 0.5em;
+  padding: 1em;
+  margin: 0.5em;
+  font-size: 1em;
+  text-align: center;
+}
+
+#square {
+  padding-left: 1em;
+  padding-bottom: 1em;
+}
+
+li {
+   text-align: left;
+   font-size: 1em;
+}
+
+a {
+  text-decoration: none;
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=button] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+#bit{
+	width: 150px;
+	height: 20px;
+	margin-right: 120px
+}
+#git{
+	width: 150px;
+	height: 40px;
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("/images/bg.jpg");
+}
+header{
+	background-color:rgba(173, 230, 176, 0.452);
+	font-weight:bold;
+	 text-align:center;
+	 font-size:50px;
+	 font-family:"verdana";
+}
+
+footer{
+	background-color:lightblue;
+
+	text-align:center;
+	font-size: 10px;
+	 font-family:"verdana";
+}
+
+.aside-header{
+	background-color:lightblue;
+	text-align:center;
+}
+
+
+.col-md-4{
+  font-size: 1em;
+  
+  
+}
+
+
+li:nth-child(even){
+list-style-type:none}
+ul>li{
+font-weight:bold;
+}
+h3{
+color:rgba(30, 255, 244, 0.733);}
+p{
+color:black;}
+h5{
+text-align: center;
+ text-decoration: underline;
+}
+#image{
+  width: 10px;
+}
+.center {
+  
+  margin: 100px;
+    display: block
+}

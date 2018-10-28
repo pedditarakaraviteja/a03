@@ -1,0 +1,22 @@
+{
+    "name": "a03",
+    "version": "0.0.1",
+    "description": "resume app",
+    "main": "app.js",
+    "dependencies": {
+        "body-parser": "latest",
+        "ejs": "latest",
+        "express": "latest",
+        "install": "^0.12.2",
+        "mailgun-js": "latest",
+        "morgan": "latest",
+        "nodemon": "^1.18.4"
+    },
+    "author": "Taraka Raviteja",
+    "homepage": "https://bitbucket.org/pedditarakaraviteja/a03",
+    "repository": {
+        "type": "git",
+        "url": "https://bitbucket.org/pedditarakaraviteja/a03"
+    },
+    "license": "Apache-2.0"
+}
