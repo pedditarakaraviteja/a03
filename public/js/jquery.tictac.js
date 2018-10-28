@@ -8,20 +8,34 @@ function square(num) {
   }
 }
 
-function reverse(num) {
-  num = num + "";
-  let errorr = new Error('The given argument is not a number');
-  if (isNaN(num)) {
-    throw errorr;
-  }
-  else {
-    return num.split("").reverse().join("");
-  }
+$(document).ready(function(){
+  $("#reverse").click(function(num){
+    num = num + "";
+    let errorr = new Error('The given argument is not a number');
+    if (isNaN(num)) {
+      throw errorr;
+    }
+    else {
+      return num.split("").reverse().join("");
+    }  
+  });
+});
 
 
-}
+// function reverse(num) {
+//   num = num + "";
+//   let errorr = new Error('The given argument is not a number');
+//   if (isNaN(num)) {
+//     throw errorr;
+//   }
+//   else {
+//     return num.split("").reverse().join("");
+//   }
+
+
+// }
 function strongnumber(num) {
-  if (!num) var num = document.getElementById('num').value;
+  if (!num) var num = $('#num').value;
   sum = 0;
   r = 0;
 
