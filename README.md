@@ -16,3 +16,12 @@ Run node app.js to start the server.  (Hit CTRL-C to stop.)
 ```
 
 Point your browser to `http://localhost:8081`
+use the .ejs file to run the app.
+Deploy to heroku 
+heroku login
+heroku create creates the app. 
+commit to heroku.
+Then heroku will create the the app which is deployed.
+
+
+
